@@ -5,7 +5,7 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 
 public class WebApisJava {
-    public static final String REQUEST_URL = "https://api.nasa.gov/DONKI/FLR?api_key=DEMO_KEY";
+    public static final String REQUEST_URL = "https://eonet.gsfc.nasa.gov/api/v2.1/categories/8?status=closed&limit=5";
 
     public static void main(String[] args) {
         try {
